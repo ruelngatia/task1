@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.center{
+    width: 85vw;
+    height: 60vh;
+    border: 2px solid red;
+    display: grid;
+    padding: 10px;
+    grid-template-areas:
+        "one two three four"
+        "one five six seven"
+     ;
+    gap: 10px;
+
+}
+.item{
+    border: 2px solid blue; 
+    border-radius: 15px;
+}
+.one{
+    border: 2px solid blue; 
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+
+@media screen and (max-width: 768px) {
+   
+   .center{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+   } 
+   .mobile{
+    border: 2px solid blue; 
+    flex: 1;
+   }
+}
+

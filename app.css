@@ -84,27 +84,52 @@ body{
 .two{
     background-color: #FF8C66;
     grid-area: two;
+    background-image: url("./images/envelope.png");
+    background-position: 95% 3%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
 .three{
     background-color: #56C2E6;
     grid-area: three;
+    background-image: url("./images/game.png");
+    background-position: 95% 3%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
 .four{
     background-color: #FF5C7C;
     grid-area: four;
+    background-image: url("./images/folder.png");
+    background-position: 95% 3%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
 .five{
     background-color: #4ACF81;
     grid-area: five;
+    background-image: url("./images/run.png");
+    background-position: 95% 3%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
 .six{
     background-color: #7536D3;
     grid-area: six;
+    background-image: url("./images/chat.png");
+    background-position: 95% 3%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
 .seven{
     background-color: #F1C65B;
     grid-area: seven;
+    background-image: url("./images/folder.png");
+    background-position: 95% 3%;
+    background-repeat: no-repeat;
+    background-size: 30px;
 }
+
 .bottom{
     height: 80%;
     padding-left: 10px;
@@ -155,7 +180,7 @@ body{
 @media screen and (max-width: 768px) {
    
     body{
-        /* height: 1000px; */
+        height: 100%x;
     }
    .center{
     height: 100%;

@@ -87,6 +87,7 @@ body{
     background-image: url("./images/envelope.png");
     background-position: 95% 3%;
     background-repeat: no-repeat;
+    background-blend-mode:  overlay;
     background-size: 30px;
 }
 .three{
@@ -95,6 +96,7 @@ body{
     background-image: url("./images/game.png");
     background-position: 95% 3%;
     background-repeat: no-repeat;
+    background-blend-mode:  overlay;
     background-size: 30px;
 }
 .four{
@@ -103,6 +105,7 @@ body{
     background-image: url("./images/folder.png");
     background-position: 95% 3%;
     background-repeat: no-repeat;
+    background-blend-mode:  overlay;
     background-size: 30px;
 }
 .five{
@@ -111,6 +114,7 @@ body{
     background-image: url("./images/run.png");
     background-position: 95% 3%;
     background-repeat: no-repeat;
+    background-blend-mode:  overlay;
     background-size: 30px;
 }
 .six{
@@ -119,6 +123,7 @@ body{
     background-image: url("./images/chat.png");
     background-position: 95% 3%;
     background-repeat: no-repeat;
+    background-blend-mode:  overlay;
     background-size: 30px;
 }
 .seven{
@@ -127,6 +132,7 @@ body{
     background-image: url("./images/folder.png");
     background-position: 95% 3%;
     background-repeat: no-repeat;
+    background-blend-mode:  overlay;
     background-size: 30px;
 }
 
